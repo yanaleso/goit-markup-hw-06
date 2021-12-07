@@ -725,12 +725,17 @@ textarea {
   border: none;
 }
 
+.modal-checkbox:focus + .modal-label-policy .modal-policy-icon {
+  border: 2px solid var(--accent-color);
+}
+
 .modal-checkbox:checked + .modal-label-policy .icon-check {
   fill: var(--white-text-color);
 }
 
 .modal-policy-link {
   color: var(--accent-color);
+  text-decoration-skip-ink: none;
 }
 
 /* portfolio */
